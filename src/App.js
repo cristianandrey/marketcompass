@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+//import "./App.css";
+import styledash from "./assets/styles/styledash.module.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Register from "./view/Register";
+import Login from "./view/Login";
+import Home from "./view/Home";
+import DashboardMain from "./view/DashboardMain";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styledash.appPrinci}>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/dashboard" element={<DashboardMain />} />
+        {/* <Route path="users/*" element={<Users />} /> */}
+      </Routes>
+    </BrowserRouter>
     </div>
   );
 }

@@ -1,0 +1,185 @@
+.navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 0.5rem 0rem;
+  background-color: #fff;
+  color: black;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.brand_name {
+  height: 54px;
+  width: 400px;
+  border-radius: 0px 15px 15px 0px;
+  background: #000000;
+  text-decoration: none;
+  color: #eee;
+  font-size: 20px;
+}
+.brand_name p {
+  margin-left: 10px;
+  font-size: 10px;
+  text-decoration: none;
+  background: transparent;
+}
+.brand_name h4 {
+  margin-left: 10px;
+  background: transparent;
+}
+.fechas {
+  position: fixed;
+  bottom: 0px;
+  right: 650px;
+  top: 5px;
+
+  margin-bottom: 20px;
+  margin-left: 50px;
+  text-align: center;
+  background: transparent;
+}
+
+.fechas h1 {
+  background: transparent;
+}
+.fechas h2 {
+  font-size: 20px;
+  background: transparent;
+}
+.clima p {
+  background: transparent;
+}
+
+.tempe {
+  background: transparent;
+}
+.tempe i {
+  background: transparent;
+  font-size: 25px;
+  margin: 0px 10px 0px 0px;
+}
+
+.clima {
+  position: fixed;
+  bottom: 0px;
+  right: 350px;
+  top: 5px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  text-align: center;
+  background: transparent;
+}
+
+.logout img {
+  background: transparent;
+}
+.logout {
+  position: fixed;
+  float: right;
+  bottom: 0px;
+  right: 0px;
+  top: 5px;
+  text-align: end;
+  width: 180px;
+  background: transparent;
+}
+.btn_logout {
+  background: transparent;
+  border: none;
+  width: 70px;
+}
+
+@media screen and (max-width: 1115px) {
+  .brand_name {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1041px) {
+  .clima {
+    left: 450px;
+    width: 200px;
+    height: 90px;
+  }
+  .fechas {
+    left: 200px;
+    width: 200px;
+    height: 90px;
+  }
+}
+
+
+@media screen and (max-width: 865px) {
+  .clima {
+    left: 350px;
+    width: 200px;
+    height: 90px;
+  }
+  .fechas {
+    font-size: 15px;
+    left: 150px;
+    width: 200px;
+    height: 90px;
+  }
+  .fechas h1{
+    font-size: 30px;
+  }
+  
+  .fechas h2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .clima {
+    visibility: hidden;
+  }
+  .fechas {
+    font-size: 15px;
+    left: 150px;
+    width: 200px;
+    height: 90px;
+  }
+  .fechas h1{
+    font-size: 30px;
+  }
+  
+  .fechas h2 {
+    font-size: 15px;
+  }
+}
+
+
+
+.navigation_menu ul {
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: white;
+  border-top: 1px solid black;
+  display: none;
+}
+
+.navigation_menu li {
+  text-align: center;
+  margin: 0;
+}
+
+.navigation_menu li a {
+  color: black;
+  width: 100%;
+  padding: 1.5rem 0;
+}
+
+.navigation_menu li:hover {
+  background-color: #eee;
+}
+
+.navigation_menu.expanded ul {
+  display: block;
+}

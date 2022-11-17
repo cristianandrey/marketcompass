@@ -1,0 +1,56 @@
+
+.card {
+  margin-top: 10px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.inputsadd {
+  padding-bottom: 10px;
+  margin: 0 10px;
+  margin-top: 10px;
+}
+.inputsadd input {
+  margin: 0 1px;
+  border: 1px solid #fee060;
+  border-radius: 10px;
+
+  width: 350px;
+  height: 40px;
+}
+.inputsadd select {
+  margin-left: 5px;
+  border: 1px solid #fee060;
+  border-radius: 10px;
+
+  width: 200px;
+  height: 40px;
+}
+
+.buttons {
+  margin-left: 140px;
+  margin-top: 10px;
+}
+.buttons button {
+  margin: 0 10px;
+  border: 1px solid #fee060;
+  border-radius: 10px;
+
+  width: 200px;
+  height: 45px;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.add_btn {
+  background: #00ba88;
+  color: #fff;
+}
+.delete_btn {
+  background: #ff3d1f;
+  color: #fff;
+}

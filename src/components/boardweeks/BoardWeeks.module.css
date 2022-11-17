@@ -1,0 +1,94 @@
+.contenedor {
+  margin-top: 90px;
+  border: 1px solid red;
+}
+
+.column {
+  float: left;
+  padding: 0 2px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* list card */
+
+.card1 {
+  height: 33px;
+  width: 140px;
+  text-align: center;
+  background: transparent;
+}
+.card2 {
+  height: 33px;
+  width: 170px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  background: #ff0024;
+}
+.card3 {
+  height: 33px;
+  width: 170px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  background: #ff8000;
+}
+.card4 {
+  height: 33px;
+  width: 170px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  background: #ffce00;
+}
+.card5 {
+  height: 33px;
+  width: 170px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  background: #fe4b65;
+}
+.card6 {
+  height: 33px;
+  width: 170px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  background: #fea54b;
+}
+.card7 {
+  height: 33px;
+  width: 170px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  background: #fedb4b;
+}
+.card8 {
+  height: 33px;
+  width: 170px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  background: #fd7e8f;
+}
